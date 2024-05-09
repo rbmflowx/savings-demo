@@ -1,0 +1,42 @@
+// Javascript
+
+// JSON data
+jsonData = {
+    "account_holder": "Chris Customer",
+    "account_number": "CK-234-567890",
+    "account_balance": 5498.45,
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "description": "Comic book guy",
+        "amount": 14.99
+      },
+      {
+        "date": "2024-04-14",
+        "description": "Krusty burger",
+        "amount": 9.87
+      },
+      {
+        "date": "2024-04-04",
+        "description": "Moes Tavern",
+        "amount": 23.02
+      }
+    ],
+    "pending_transactions": [
+      {
+        "date": "2024-04-24",
+        "description": "City of Springfield",
+        "amount": 288.22
+      }
+    ],
+    "upcoming_bills": [
+      {
+        "name": "Car Payment",
+        "due_date": "2024-05-24"
+      }
+    ],
+    "notes": "You are eligitable for a FlowX bank credit card"
+  }
+  
+  // Return Data
+  output.put("application", {"checking": jsonData});

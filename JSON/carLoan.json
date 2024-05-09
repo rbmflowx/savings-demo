@@ -1,0 +1,51 @@
+// Javascript
+
+// JSON data
+jsonData = {
+    "loan_details": {
+      "loan_amount": 25000,
+      "interest_rate": 5.5,
+      "loan_term": 60,
+      "monthly_payment": 474.54
+    },
+    "payments": [
+      {
+        "payment_date": "2024-04-01",
+        "payment_amount": 474.54,
+        "principal_paid": 370.54,
+        "interest_paid": 104.00,
+        "remaining_balance": 24629.46
+      },
+      {
+        "payment_date": "2024-05-01",
+        "payment_amount": 474.54,
+        "principal_paid": 374.20,
+        "interest_paid": 100.34,
+        "remaining_balance": 24255.26
+      },
+      {
+        "payment_date": "2024-06-01",
+        "payment_amount": 474.54,
+        "principal_paid": 377.89,
+        "interest_paid": 96.65,
+        "remaining_balance": 23877.37
+      },
+      {
+        "payment_date": "2024-07-01",
+        "payment_amount": 474.54,
+        "principal_paid": 381.62,
+        "interest_paid": 92.92,
+        "remaining_balance": 23495.75
+      },
+      {
+        "payment_date": "2024-08-01",
+        "payment_amount": 474.54,
+        "principal_paid": 385.38,
+        "interest_paid": 89.16,
+        "remaining_balance": 23110.37
+      }
+    ]
+  }
+  
+  // Return Data
+  output.put("application", {"carLoan": jsonData});
