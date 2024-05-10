@@ -48,4 +48,6 @@ jsonData = {
   }
   
   // Return Data
-  output.put("application", {"carLoan": jsonData});
+//  output.put("application", {"carLoan": jsonData});
+// output.put("application", jsonData);
+output.put("jsonData", jsonData);

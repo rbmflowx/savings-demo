@@ -17,5 +17,5 @@ jsonData = {
   }
 
   // Return Data
-  output.put("application", {"customerProfile": jsonData});
-  
+  // output.put("application", {"customerProfile": jsonData});
+  output.put("jsonData", jsonData);

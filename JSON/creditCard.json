@@ -30,4 +30,5 @@ jsonData = {
   }
 
   // Return Data
-  output.put("application", {"creditCard": jsonData});
+//  output.put("application", {"creditCard": jsonData});
+  output.put("jsonData", jsonData);

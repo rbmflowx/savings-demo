@@ -1,39 +1,39 @@
 // Javascript
 
 // JSON data
-jsonData = {
-    "notifications": [
-      {
-        "id": 1,
-        "type": "deposit",
-        "amount": 1000,
-        "date": "2024-04-24",
-        "description": "Deposit of $1000.00 received."
-      },
-      {
-        "id": 2,
-        "type": "withdrawal",
-        "amount": 200,
-        "date": "2024-04-25",
-        "description": "Withdrawal of $200.00 made."
-      },
-      {
-        "id": 3,
-        "type": "Car Loan payment",
-        "amount": 350.33,
-        "date": "2024-04-26",
-        "description": "Payment of $350.33 processed."
-      },
-      {
-        "id": 4,
-        "type": "Credit Card payment",
-        "amount": 234,
-        "date": "2024-04-26",
-        "description": "Payment of $234.00 processed."
-      }
-    ]
+jsonData = [
+  {
+    "id": 1,
+    "type": "deposit",
+    "amount": 1000,
+    "date": "2024-05-24",
+    "description": "Deposit of $1000.00 received."
+  },
+  {
+    "id": 2,
+    "type": "withdrawal",
+    "amount": 200,
+    "date": "2024-04-25",
+    "description": "Withdrawal of $200.00 made."
+  },
+  {
+    "id": 3,
+    "type": "Car Loan payment",
+    "amount": 350.33,
+    "date": "2024-04-26",
+    "description": "Payment of $350.33 processed."
+  },
+  {
+    "id": 4,
+    "type": "Credit Card payment",
+    "amount": 234,
+    "date": "2024-04-26",
+    "description": "Payment of $234.00 processed."
   }
-  
+]
+
 
 // Return Data
-  output.put("application", {"notifications": jsonData});
+// output.put("application", {"notifications": jsonData});
+// output.put("application", jsonData);
+output.put("jsonData", jsonData);
