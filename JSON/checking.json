@@ -22,14 +22,14 @@ jsonData = {
       "amount": 23.02
     }
   ],
-  "pending_transactions": [
+  "pendingTransactions": [
     {
       "date": "2024-04-24",
       "description": "City of Springfield",
       "amount": 288.22
     }
   ],
-  "upcoming_bills": [
+  "upcomingBills": [
     {
       "name": "Car Payment",
       "due_date": "2024-05-24"
