@@ -2,20 +2,21 @@
 
 // JSON data
 jsonData = {
-    "customer_id": "ATP-22193-OP",
-    "name": "Chris Customer",
-    "dob": "1985-07-15",
-    "email": "chris@customer.com",
-    "phone": "+1234567890",
-    "address": {
-      "street": "742 Evergreen Terrace",
-      "city": "Springfield",
-      "state": "US",
-      "zip": "12345",
-      "country": "USA"
-    }
+  "customer_id": "ATP-22193-OP",
+  "name": "Chris Customer",
+  "dob": "1985-07-15",
+  "email": "chris@customer.com",
+  "phone": "+1234567890",
+  "address": {
+    "street": "742 Evergreen Terrace",
+    "city": "Springfield",
+    "state": "US",
+    "zip": "12345",
+    "country": "USA"
   }
+}
 
-  // Return Data
-  // output.put("application", {"customerProfile": jsonData});
-  output.put("jsonData", jsonData);
+// Return Data
+// output.put("application", {"customerProfile": jsonData});
+//  output.put("jsonData", jsonData);
+output.put("application", {"jsonData": jsonData});
